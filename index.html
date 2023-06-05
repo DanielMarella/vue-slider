@@ -17,11 +17,11 @@
             Which cat are you today?
         </h1>
         <div class="container">
-            <input type="button" class="prev" value="ciao">
+            <input type="button" class="prev" value="<<<"  @click="prevImage">
             <div class="carousel" >
                 <img :src="images[activeIndex]"  alt="random image" :class="index === activeIndex ? 'active' : ''" >
             </div>
-            <div class="thumbnails" v-for="(image, index) in images" @click="prevImage">
+            <div class="thumbnails" v-for="(image, index) in images">
             </div>
             <input type="button" class="next" value=">>>" @click="nextImage">
 
