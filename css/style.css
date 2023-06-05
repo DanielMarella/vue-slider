@@ -18,10 +18,16 @@
 
 
 .carousel{
-    border: 2px solid black;
-    width: 30rem;
+    border: 1px solid blue;
+    width: 20rem;
     height: 30rem;
     margin: 5rem auto 0 auto;
+}
+
+.carousel img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .prev{

@@ -12,26 +12,27 @@
         <!-- Vue_3 -->
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-    <main>
-        <h1 class="text-center my_margin-top" id="app">
-            {{ message }}
+    <div id="app">
+        <h1 class="text-center my_margin-top">
+            Which cat are you today?
         </h1>
         <div class="container">
-            <input type="button" class="prev" value="<<<">
-            <div class="carousel">
+            <input type="button" class="prev" value="ciao">
+            <div class="carousel" v-for="(image, index) in images" @click="prevImage">
+                <img :src="image"  alt="random image" :class="index === activeIndex ? 'active' : ''" >
             </div>
             <div class="thumbnails">
+                <!-- <div class="thumb"></div>
                 <div class="thumb"></div>
                 <div class="thumb"></div>
-                <div class="thumb"></div>
-                <div class="thumb"></div>
+                <div class="thumb"></div> -->
             </div>
-            <input type="button" class="next" value=">>>">
+            <input type="button" class="next" value=">>>" @click="nextImage">
 
         </div>
             
 
-    </main>
+    </div>
         <!-- My_js -->
         <script src="js/myscript.js"></script>
     </body>
