@@ -7,9 +7,9 @@
     data() {
         return {
         images : [
-            './img/assassin.jpg',
-            './img/flycat.jpg',
-            './img/sherif.jpg',
+            './img/assassin.webp',
+            './img/flycat.webp',
+            './img/sherif.webp',
             './img/stylecat.webp'
             ],
 
