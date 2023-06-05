@@ -7,10 +7,10 @@
     data() {
         return {
         images : [
-            './img/assassin.webp',
-            './img/flycat.webp',
-            './img/sherif.webp',
-            './img/stylecat.webp'
+            './img/assassin.jpg',
+            './img/flycat.jpg',
+            './img/sherif.jpg',
+            './img/stylecat.jpg'
             ],
 
         activeIndex : 0,
