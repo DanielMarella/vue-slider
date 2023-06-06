@@ -15,7 +15,9 @@
     margin-top: 5rem;
 }
 
-
+.container{
+    position: relative;
+}
 
 .carousel{
     margin: 5rem auto 0 auto;
@@ -32,14 +34,14 @@
 
 .prev{
     position: absolute;
-    top: 50%;
-    left: 20% 
+    top: 40%;
+    left: 32% 
 }
 
 .next{
     position: absolute;
-    top: 50%;
-    left: 75%;
+    top: 40%;
+    left: 65%;
 }
 
 .thumbnails{

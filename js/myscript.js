@@ -15,6 +15,7 @@
 
         activeIndex : 0,
         }
+
     },
 
     methods: {
@@ -32,10 +33,12 @@
             } else{
                 this.activeIndex++;
             }
-        }
-    }
+        },
+    },
 
+    
 }).mount('#app');
+
 
 
 
